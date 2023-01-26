@@ -6,10 +6,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EnableJpaRepositories("com.devIT.InventoryManagement.dao")
 @SpringBootApplication
-public class InventoryManagementApplication {
+public class DevITManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InventoryManagementApplication.class, args);
+		SpringApplication.run(DevITManagementApplication.class, args);
 	}
 
 }
